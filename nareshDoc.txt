@@ -1,0 +1,8 @@
+bq mk \
+    -t \
+    --schema desktop-5nfqr25\avengers/employee_schema.json \
+	--time_partitioning_field hire_date \
+	--require_partition_filter=TRUE \
+    --clustering_fields country \
+    samplesdk751.employeeCreateSdk2
+	
