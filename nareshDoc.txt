@@ -4,5 +4,5 @@ bq mk \
 	--time_partitioning_field hire_date \
 	--require_partition_filter=TRUE \
     --clustering_fields country \
-    samplesdk751.employeeCreateSdk2
+    samplesdk751.employeeCreateSdk2/LMNO
 	
